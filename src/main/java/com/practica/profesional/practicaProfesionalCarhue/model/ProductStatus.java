@@ -1,5 +1,7 @@
 package com.practica.profesional.practicaProfesionalCarhue.model;
 
-public class OrderStatusValues {
+public enum ProductStatus {
+
+    AVAILABLE, OUTOFSTOCK
 
 }
