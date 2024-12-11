@@ -1,4 +1,10 @@
+package com.practica.profesional.practicaProfesionalCarhue.persistence;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
-public class AddressDao {
+import com.practica.profesional.practicaProfesionalCarhue.model.Address;
+
+@Repository
+public interface AddressDao extends JpaRepository<Address, Integer>{
 
 }
