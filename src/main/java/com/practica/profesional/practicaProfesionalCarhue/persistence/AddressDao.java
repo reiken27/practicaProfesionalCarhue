@@ -1,4 +1,4 @@
 
-public class AdressDao {
+public class AddressDao {
 
 }
